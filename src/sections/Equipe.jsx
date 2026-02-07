@@ -44,7 +44,7 @@ const team = [
     name: "Yago Jordas",
     role: "Desenvolvedor FullStack",
     photo: "/equipe/yago.jpeg",
-    linkedin: "https://www.linkedin.com/in/yago-jordas-do-nascimento-pereira-b641223a3",
+    linkedin:"https://www.linkedin.com/in/yago-jordas-do-nascimento-pereira-b641223a3",
     github: "https://github.com/yago-jnp",
   },
   {
@@ -52,6 +52,19 @@ const team = [
     role: "Desenvolvedor FullStack",
     photo: "/equipe/alan.jpeg",
     github: "https://github.com/alnbr202",
+  },
+  {
+    name: "Elias Soares",
+    role: "Desenvolvedor FullStack",
+    photo: "/equipe/elias.jpg",
+    github: "https://github.com/Elias23zx",
+  },
+  {
+    name: "Daniel Martins",
+    role: "Desenvolvedor FullStack",
+    photo: "/equipe/danielM.jpeg",
+    linkedin:"https://www.linkedin.com/in/daniel-martins-cordeiro-894ab7336",
+    github: "https://github.com/danielmc-2409",
   },
 ];
 
