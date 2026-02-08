@@ -15,6 +15,7 @@ import {
 import { useTheme, alpha } from "@mui/material/styles";
 import CloseIcon from "@mui/icons-material/Close";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import EmailIcon from "@mui/icons-material/Email";
 
 export default function Hero() {
@@ -35,6 +36,11 @@ export default function Hero() {
     `mailto:${EMAIL_TO}` +
     `?subject=${encodeURIComponent(EMAIL_SUBJECT)}` +
     `&body=${encodeURIComponent(EMAIL_BODY)}`;
+
+  const WHATSAPP_TO = "558396538298";
+  const WHATSAPP_MESSAGE = "Olá, gostaria de falar com a Codexity.";
+
+  const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_TO}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
 
   return (
     <Box
@@ -165,6 +171,15 @@ export default function Hero() {
                   onClick={handleClose}
                 >
                   E-mail
+                </Button>
+
+                <Button
+                  variant="outlined"
+                  startIcon={<WhatsAppIcon />}
+                  href={WHATSAPP_LINK}
+                  onClick={handleClose}
+                >
+                  WhatsApp
                 </Button>
               </Stack>
             </Box>
