@@ -23,7 +23,7 @@ const projects = [
     title: "Prime Up Clicks",
     subtitle:
       "Marketplace para compra e venda de fotografias profissionais, com foco em performance, organização e experiência do usuário.",
-    image: "/projetos/primeupclicks.png",
+    image: "/projetos/primeupclicks.PNG",
     tags: ["Marketplace", "Fotografia", "Plataforma Web"],
     status: "em_desenvolvimento",
     live: "https://example.com",
