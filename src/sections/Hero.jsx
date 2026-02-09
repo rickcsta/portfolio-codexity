@@ -155,15 +155,7 @@ export default function Hero() {
               </Typography>
 
               <Stack spacing={1.5}>
-                <Button
-                  variant="outlined"
-                  startIcon={<InstagramIcon />}
-                  href={INSTAGRAM_URL}
-                  onClick={handleClose}
-                >
-                  Instagram
-                </Button>
-
+                {" "}
                 <Button
                   variant="outlined"
                   startIcon={<EmailIcon />}
@@ -172,7 +164,14 @@ export default function Hero() {
                 >
                   E-mail
                 </Button>
-
+                <Button
+                  variant="outlined"
+                  startIcon={<InstagramIcon />}
+                  href={INSTAGRAM_URL}
+                  onClick={handleClose}
+                >
+                  Instagram
+                </Button>
                 <Button
                   variant="outlined"
                   startIcon={<WhatsAppIcon />}

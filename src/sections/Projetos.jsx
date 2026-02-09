@@ -21,11 +21,32 @@ import ExpandLessIcon from "@mui/icons-material/ExpandLess";
 const projects = [
   {
     title: "Prime Up Clicks",
-    subtitle: "Plataforma de compra e venda de fotos",
-    image: "/projetos/primeupclicks.PNG",
+    subtitle:
+      "Marketplace para compra e venda de fotografias profissionais, com foco em performance, organização e experiência do usuário.",
+    image: "/projetos/primeupclicks.png",
     tags: ["Marketplace", "Fotografia", "Plataforma Web"],
-    status: "em_desenvolvimento", // "concluido"
+    status: "em_desenvolvimento",
     live: "https://example.com",
+  },
+
+  {
+    title: "Pernas na Areia – 2ª Edição",
+    subtitle:
+      "Plataforma web desenvolvida para gerenciamento de inscrições e organização de torneio esportivo.",
+    image: "/projetos/pernasnaareia.png",
+    tags: ["Inscrições", "Evento", "Plataforma Web"],
+    status: "concluido",
+    live: "https://pernasnaareia.vercel.app/",
+  },
+
+  {
+    title: "Vento Musical",
+    subtitle:
+      "Plataforma web desenvolvida para divulgação do projeto Vento Musical do IFPB, apresentando registros fotográficos, informações institucionais e integrantes envolvidos.",
+    image: "/projetos/ventomusical.png",
+    tags: ["Projeto Institucional", "Cultura", "Plataforma Web"],
+    status: "concluido",
+    live: "https://ventomusicalifpb.vercel.app/",
   },
 ];
 
@@ -207,7 +228,7 @@ function ProjectCard({ project }) {
             sx={{
               position: "relative",
               width: "100%",
-              aspectRatio: "1/1",
+              aspectRatio: "16/9",
               borderRadius: 3,
               overflow: "hidden",
               border: `1px solid ${theme.palette.divider}`,
