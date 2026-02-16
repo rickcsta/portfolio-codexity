@@ -36,7 +36,7 @@ const team = [
   },
   {
     name: "Hyoran Gabriel",
-    role: "Marketing",
+    role: "Diretor de Marketing",
     photo: "/equipe/hyoran.jpeg",
     instagram: "https://www.instagram.com/hyoran_bidu/",
   },
@@ -65,6 +65,12 @@ const team = [
     photo: "/equipe/danielM.jpeg",
     linkedin:"https://www.linkedin.com/in/daniel-martins-cordeiro-894ab7336",
     github: "https://github.com/danielmc-2409",
+  },
+  {
+    name: "Venícios Vasconcelos",
+    role: "Gerente de Marketing",
+    photo: "/equipe/venicios.jpeg",
+    instagram: "https://www.instagram.com/venicios_vv/",
   },
 ];
 
